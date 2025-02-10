@@ -465,6 +465,48 @@ INSERT INTO angka_melek_huruf (kabupaten, tahun, jenis_kelamin, jumlah_persen) V
 ('Sumenep', 2023, 'Laki-laki', 88.19),
 ('Sumenep', 2023, 'Perempuan', 88.13);
 
+CREATE TABLE angka_buta_huruf (
+    kabupaten VARCHAR(50),
+    tahun INT,
+    jenis_kelamin VARCHAR(10),
+    jumlah_persen varchar (8)
+);
+
+INSERT INTO angka_buta_huruf (kabupaten, tahun, jenis_kelamin, jumlah_persen) VALUES
+('Bangkalan', 2020, 'Laki-laki', 93.57),
+('Bangkalan', 2020, 'Perempuan', 87.24),
+('Bangkalan', 2021, 'Laki-laki', 7.67),
+('Bangkalan', 2021, 'Perempuan', 12.90),
+('Bangkalan', 2022, 'Laki-laki', 6.47),
+('Bangkalan', 2022, 'Perempuan', 11.00),
+('Bangkalan', 2023, 'Laki-laki', 8.78),
+('Bangkalan', 2023, 'Perempuan', 8.91),
+('Sampang', 2020, 'Laki-laki', 89.01),
+('Sampang', 2020, 'Perempuan', 77.65),
+('Sampang', 2021, 'Laki-laki', 12.87),
+('Sampang', 2021, 'Perempuan', 20.33),
+('Sampang', 2022, 'Laki-laki', 10.85),
+('Sampang', 2022, 'Perempuan', 19.05),
+('Sampang', 2023, 'Laki-laki', 15.04),
+('Sampang', 2023, 'Perempuan', 14.94),
+('Pamekasan', 2020, 'Laki-laki', 31.50),
+('Pamekasan', 2020, 'Perempuan', 86.05),
+('Pamekasan', 2021, 'Laki-laki', 6.74),
+('Pamekasan', 2021, 'Perempuan', 12.53),
+('Pamekasan', 2022, 'Laki-laki', 5.41),
+('Pamekasan', 2022, 'Perempuan', 12.43),
+('Pamekasan', 2023, 'Laki-laki', 9.02),
+('Pamekasan', 2023, 'Perempuan', 7.62),
+('Sumenep', 2020, 'Laki-laki', 91.17),
+('Sumenep', 2020, 'Perempuan', 79.30),
+('Sumenep', 2021, 'Laki-laki', 8.82),
+('Sumenep', 2021, 'Perempuan', 18.01),
+('Sumenep', 2022, 'Laki-laki', 7.45),
+('Sumenep', 2022, 'Perempuan', 15.81),
+('Sumenep', 2023, 'Laki-laki', 11.81),
+('Sumenep', 2023, 'Perempuan', 11.87);
+
+
 
 
 
